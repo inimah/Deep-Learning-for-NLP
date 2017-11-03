@@ -1,7 +1,7 @@
 General Requirements:
-Python3
-Keras
-Tensorflow
+* Python3
+* Keras
+* Tensorflow
 
 
 **If you are running experiments on GPU clusters, do not forget to check dependencies of the installed libraries with available cuda and gcc modules
