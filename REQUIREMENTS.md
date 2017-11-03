@@ -35,7 +35,9 @@ Otherwise:
 * pip install wget
 * conda install matplotlib
 * pip install -U nltk
-* python -m nltk.downloader -d /(your-home-directory)/nltk_data all
+
+run the following code to download all nltk_data in your $HOME directory
+* python -m nltk.downloader -d (your $HOME directory)/nltk_data all
 * conda install gensim
 
 ## download and install keras
