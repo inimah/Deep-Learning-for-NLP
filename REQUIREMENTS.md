@@ -4,7 +4,8 @@ General Requirements:
 * Tensorflow 1.3.0-py35_0 (installed via miniconda3)
 
 ## Installation (For Linux) - and applicable for user of grid cluster environment 
-# (you will install packages under your user account / $HOME directory)
+(in grid cluster environment, packages will be installed under your user account / $HOME directory)
+
 ## Install python3 packages via miniconda3
 * Link to miniconda site: https://conda.io/miniconda.html
 * wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
