@@ -65,6 +65,26 @@ pip install git+git://github.com/fchollet/keras.git --upgrade
 
 
 ## Configure backend before running keras
+
+## 1. For installation with miniconda3
+
+* Make sure it is done under tfenv environment (source activate tfenv)
+* nano $HOME/miniconda3/pkgs/keras-2.0.6-py35_0/etc/conda/activate.d/keras_activate.sh
+```
+#!/bin/bash
+if [ "$(uname)" == "Darwin" ]
+then
+    # for Mac OSX
+    export KERAS_BACKEND=tensorflow
+elif [ "$(uname)" == "Linux" ]
+then
+    # for Linux
+    export KERAS_BACKEND=tensorflow
+fi
+
+```
+
+## 2. For installation from github source
 * nano $HOME/.keras/keras.json
 ```
 {   
