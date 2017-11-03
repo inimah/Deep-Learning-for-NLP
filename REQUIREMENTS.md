@@ -32,7 +32,6 @@ Otherwise:
 * conda install scipy
 * conda install scikit-learn
 * conda install h5py
-* pip install wget
 * conda install matplotlib
 * pip install -U nltk
 
