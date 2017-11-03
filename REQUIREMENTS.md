@@ -1,22 +1,30 @@
 General Requirements:
-* Python3
+* Python3 (installed via miniconda3)
 * Keras
-* Tensorflow
+* Tensorflow 1.3.0-py35_0 (installed via miniconda3)
 
-## Installation (For Linux)
-## get and install python3 packages via miniconda3
+## Installation (For Linux) - and applicable for user of grid cluster environment 
+# (you will install packages under your user account / $HOME directory)
+## Install python3 packages via miniconda3
 * Link to miniconda site: https://conda.io/miniconda.html
 * wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 * chmod +x Miniconda3-latest-Linux-x86_64.sh
 * ./Miniconda3-latest-Linux-x86_64.sh
 
-## create and activate conda virtual environment
+## Create and activate conda virtual environment
 * conda create -n tfenv
 * source activate tfenv            
 
 ## Add conda-forge repository, install tensorflow library
 * conda config --add channels conda-forge
+
+If you have GPU card in your computer:
+
 * conda install tensorflow-gpu
+
+Otherwise:
+
+* conda install tensorflow
 
 ## install required libraries
 * conda install ipython
