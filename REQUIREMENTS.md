@@ -3,21 +3,12 @@ General Requirements:
 * Keras
 * Tensorflow
 
-
-**If you are running experiments on GPU clusters, do not forget to check dependencies of the installed libraries with available cuda and gcc modules
-## activate modules 
-* module load cuda/8.0
-* module load cudnn/5.1
-* module load gcc/5.2.0
-* module load git
-
+## Installation (For Linux)
 ## get and install conda
-* wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh
-* chmod +x Miniconda2-latest-Linux-x86_64.sh
-* ./Miniconda2-latest-Linux-x86_64.sh
-
-## logout - login to activate conda (or source .bashrc)
-* exit
+* Link to miniconda site: https://conda.io/miniconda.html
+* wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+* chmod +x Miniconda3-latest-Linux-x86_64.sh
+* ./Miniconda3-latest-Linux-x86_64.sh
 
 ## create and active conda virtual environment
 * conda create -n tfenv
@@ -45,6 +36,12 @@ General Requirements:
 * python setup.py install 
 pip install git+git://github.com/fchollet/keras.git --upgrade
 
+**If you are running experiments on GPU clusters, do not forget to check dependencies of the installed libraries with available cuda and gcc modules
+## activate modules 
+* module load cuda/8.0
+* module load cudnn/5.1
+* module load gcc/5.2.0
+* module load git
 
 ## Test Installation
 python
