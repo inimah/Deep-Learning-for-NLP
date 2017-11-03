@@ -1,5 +1,5 @@
 General Requirements:
-* Python3 (installed via miniconda3)
+* Python 3.5.4 (installed via miniconda3)
 * Keras
 * Tensorflow 1.3.0-py35_0 (installed via miniconda3)
 
