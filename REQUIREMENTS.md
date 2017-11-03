@@ -39,7 +39,14 @@ Otherwise:
 * pip install -U nltk
 
 run the following code to download all nltk_data in your $HOME directory
+
+instead of downloading later when running/training your model
+
 * python -m nltk.downloader -d (your $HOME directory)/nltk_data all
+Put the following code when need to retrieve data sets from the downloaded nltk folder
+```
+nltk.data.path.append('(your $HOME directory)/nltk_data')
+```
 * conda install gensim
 
 ## Install keras
