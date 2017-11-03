@@ -4,13 +4,13 @@ General Requirements:
 * Tensorflow
 
 ## Installation (For Linux)
-## get and install conda
+## get and install python3 packages via miniconda3
 * Link to miniconda site: https://conda.io/miniconda.html
 * wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 * chmod +x Miniconda3-latest-Linux-x86_64.sh
 * ./Miniconda3-latest-Linux-x86_64.sh
 
-## create and active conda virtual environment
+## create and activate conda virtual environment
 * conda create -n tfenv
 * source activate tfenv            
 
