@@ -1,3 +1,9 @@
+General Requirements:
+Python3
+Keras
+Tensorflow
+
+
 **If you are running experiments on GPU clusters, do not forget to check dependencies of the installed libraries with available cuda and gcc modules
 ## activate modules 
 * module load cuda/8.0
@@ -31,15 +37,6 @@
 * pip install -U nltk
 * python -m nltk.downloader -d /(your-home-directory)/nltk_data all
 * conda install gensim
-
-** install seaborn (because I love their visualization) 
-
-** this will also instantly install python pandas - or can also be installed prior with conda install pandas
-
-* cd (your-git-directory)
-* git clone https://github.com/mwaskom/seaborn.git
-* cd seaborn
-* python setup.py install 
 
 ## download and install keras
 * cd (your-git-directory)
