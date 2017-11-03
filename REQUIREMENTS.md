@@ -57,7 +57,8 @@ Make sure you run setup.py under tfenv environment and your miniconda python (in
 pip install git+git://github.com/fchollet/keras.git --upgrade
 
 **If you are running experiments on GPU clusters, do not forget to check dependencies of the installed libraries with available cuda and gcc modules
-## activate modules 
+
+## Activate modules 
 * module load cuda/8.0
 * module load cudnn/5.1
 * module load gcc/5.2.0
